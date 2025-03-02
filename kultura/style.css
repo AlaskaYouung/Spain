@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #c86947;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.character-container {
+    max-width: 800px;
+    margin: 20px auto;
+    
+}
+
+.character-container p::first-letter{
+	color:#c86947 ;
+	font-weight: 700;
+	font-size: 18px;
+}
+.character-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character-description {
+    margin-top: 20px;
+    line-height: 1.6;
+}

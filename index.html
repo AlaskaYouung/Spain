@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Испания</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- begin: header -->
+    <div class="header">
+        <h1>Испания</h1>
+      </div>
+      <!-- end: header -->
+      <!-- begin: row -->
+      <div class="row">
+        <!-- begin: columns -->
+        <div class="col-3 col-s-3 menu">
+          <ul>
+            <a href="kultura/kultura.html" class="other-page-link"><li>Культура</li></a>
+            <a href="ostrova/ostrova.html" class="other-page-link"><li>Острова</li></a>
+            <a href="naed/naed.html" class="other-page-link"><li>Национальная еда</li></a>
+            <button id="open-modal-btn">Популярные места</button>
+          </ul>
+        </div>
+
+        <div class="modal" id="my-modal">
+          <div class="modal__box">
+            <div class="modal__close-btn">
+             <button id="close-my-modal-btn">
+               <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+               <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path opacity="0.4" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="#292D32"/>
+               <path d="M13.0594 12.0001L15.3594 9.70011C15.6494 9.41011 15.6494 8.93011 15.3594 8.64011C15.0694 8.35011 14.5894 8.35011 14.2994 8.64011L11.9994 10.9401L9.69937 8.64011C9.40937 8.35011 8.92937 8.35011 8.63938 8.64011C8.34938 8.93011 8.34938 9.41011 8.63938 9.70011L10.9394 12.0001L8.63938 14.3001C8.34938 14.5901 8.34938 15.0701 8.63938 15.3601C8.78938 15.5101 8.97937 15.5801 9.16937 15.5801C9.35937 15.5801 9.54937 15.5101 9.69937 15.3601L11.9994 13.0601L14.2994 15.3601C14.4494 15.5101 14.6394 15.5801 14.8294 15.5801C15.0194 15.5801 15.2094 15.5101 15.3594 15.3601C15.6494 15.0701 15.6494 14.5901 15.3594 14.3001L13.0594 12.0001Z" fill="#292D32"/>
+               </svg>
+             </button>
+            </div>
+         <h2>Знаменитые места</h2>
+         <p>Чтобы узнать о знаменитых местах испании посмотрите видео на главной странице. Вы узнаете много интересных локаций с красивыми видами для посещения.</p>
+          </div>
+        </div>
+      <!-- end: columns -->
+      <!-- begin: columns -->
+        <div class="col-6 col-s-9">
+          <h1>Где находится Испания?</h1>
+          <p>Испания (официально Королевство Испания) - расположено в Юго-Западной Европе, по площади занимает 504,782 км² за счёт чего она входит в число пятидесяти крупнейших стран мира. Большая часть Испании расположена на Пиренейском полуострове, остальная часть 12,500 км² это острова, плюс 32 км² суверенные территории города Сеута и Мелилья, расположенные на побережье Африки. Столица, города Мадрид.</p>
+            <video width="400" controls> 
+                <source src="src/Spain.mp4" type="video/mp4"> 10 лучших мест в Испании </video>
+        </div>
+          <!-- Slider main container -->
+          <div class="swiper"><!-- Additional required wrapper -->
+            <div class="swiper-wrapper"><!-- Slides -->
+            <div class="swiper-slide"><img src="src/s1.jpeg"></div>
+            <div class="swiper-slide"><img src="src/s2.jpg"></div>
+            <div class="swiper-slide"><img src="src/s3.jpg"></div>
+    
+          </div><!-- If we need pagination -->
+             <div class="swiper-pagination"></div>
+             <div class="swiper-button-prev"></div>
+             <div class="swiper-button-next"></div>
+            
+         </div>
+       <!-- end: columns -->
+       <!-- begin: columns -->
+        <div class="col-3 col-s-12">
+        
+          
+          <!-- end: aside -->
+        </div>
+        <!-- end: columns -->
+      </div>
+      <!-- end: row -->
+      <!-- begin: footer -->
+      <div class="footer">
+        <p>Испания потрясающая страна, которую нужно обязательно посетить!</p>
+      </div>
+      <!-- end: footer -->
+</body>
+</html>
+<script src="script.js"></script>
